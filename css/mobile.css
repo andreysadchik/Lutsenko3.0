@@ -1,0 +1,9 @@
+/* small laptop header start */
+@media (max-width: 1020px) {
+	.header__container {
+		max-width: 850px;
+		padding:0 15px;
+	}
+}
+
+/* small laptop header end */
