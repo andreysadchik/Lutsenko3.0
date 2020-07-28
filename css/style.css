@@ -10,47 +10,70 @@ body {
 	top: 0;
 	left: 0;
 	width: 100%;
-	z-index: 50;
+	z-index: 10;
 	background-color: #FFFFFF;
 }
 
-.header__container {
+.header__wrapper {
 	max-width: 1000px;
 	margin: 0 auto;
+}
+
+.header__container {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	height: 64px;
 }
 
-.header__logo a {
-	display: block;
+.header__logo {
+	flex:0 0 115px; /* fixed logo size */
 }
+
 
 .header__logo-img {
 	display: block;
+	max-width: 100%;
 }
 
 /* header navigation start */
-.header__nav {
-	width: 490px;
-}
 
-.header__nav ul{
+.header__items {
 	display: flex;
 	justify-content: space-between;
-	text-decoration: none;
+	align-items: center;
+	height: inherit;
+	width: 745px;
 }
 
-.header__item a {
+.header__nav {
+	height: 98%;
+}
+
+.header__list{
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	height: inherit;
+}
+
+.header__list li {
+	padding: 0 0 0 30px;
+	height: 100%;
+}
+
+.header__link {
 	display: block;
-	padding: 20px 0;
+	display: flex;
+	align-items: center;
+	height: 100%;
 	text-decoration: none;
 	font-size: 16px;
 	line-height: 20px;
 	color: #252525;
 }
 
-.header__item::after {
+.header__list li::after {
 	content: '';
 	display: block;
 	width: 0;
@@ -60,23 +83,22 @@ body {
 	transition: width .3s;
 }
 
-.header__item:hover::after  {
+.header__list li:hover::after  {
 	width: 100%;
 	transition: width .3s;
 }
 
 /* header navigation end */
 
-.header__insta a{
+.header__insta {
 	display: block;
+	flex: 0 0 24px; /* fixed instalogo size */
 }
 
 .header__insta-img {
 	display: block;
-	width: 100%;
-	height: 100%;
+	max-width: 100%;
 }
-
 
 .header__burger {
 	display: none;

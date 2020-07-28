@@ -2,8 +2,151 @@
 @media (max-width: 1020px) {
 	.header__container {
 		max-width: 850px;
+		margin: 0 auto;
 		padding:0 15px;
+	}
+
+	.header__items {
+		width: 645px;
 	}
 }
 
 /* small laptop header end */
+
+@media (max-width: 880px) {
+	
+	body.lock {
+		overflow: hidden;
+	}
+
+	.header__container {
+		max-width: 700px;
+		margin: 0 auto;
+		padding:0 15px;
+	}
+	
+	.header__logo {
+		z-index: 12;
+		flex: 0 0 95px; /* header logo resize*/
+	}
+
+	.header__burger {
+		display: block;
+		position: relative;
+		width: 24px;
+		height: 20px;
+		z-index: 12;
+	}
+	
+	.header__burger span {
+		position: absolute;
+		background-color: #252525;
+		left: 0;
+		width: 100%;
+		height: 2px;
+		top: 9px;
+		transition: all 0.3s ease 0s; /*add animation */
+	} /* make burger menu central line */
+
+	.header__burger:before,
+	.header__burger:after {
+		content: '';
+		background-color: #252525;
+		position: absolute;
+		width: 100%;
+		height: 2px;
+		left: 0; /* make styles for burger-menu top and bottom lines */
+		transition: all 0.3s ease 0s; /*add animation */
+	}
+
+	.header__burger:before {
+		top: 0;
+	} /* pin burger-menu top line */
+
+	.header__burger:after {
+		bottom: 0;
+	} /* pin burger-menu bottom line */
+
+	/*fixe border bottom line start*/
+
+	.header__items {
+		position: fixed;
+		top: -100%;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: #fff;
+		z-index: 11;
+		display: block;
+		text-align: center;
+		padding-top: 50px;
+		transition: all 0.3s ease 0s;
+	}
+
+
+	.header__items.active {
+		top: 0;
+		overflow: auto;
+	}
+
+
+
+	.header__nav {
+		height: auto;
+		text-align: center;
+		
+	}
+
+	.header__list {
+		display: block;
+		height: auto;
+		text-align: center;
+	}
+
+	.header__list li {
+		height: auto;
+		text-align: center;
+		padding:0 0 30px 0;
+	}
+	
+	.header__link {
+		display: inline-block;
+		font-size: 24px;
+	}
+
+	/* display non for bottom lines start */
+	.header__list li::after {
+		display: none;
+	}
+
+	.header__list li:hover::after  {
+		display: none;
+	}
+	/* display non for bottom lines start */
+	/*fixe border bottom line end*/
+
+	.header__insta {
+		text-align: center;
+		display: inline-block;
+	}
+	
+
+	/* header burger animation start */
+	.header__burger.active:before {
+		transform: rotate(45deg);
+		top: 9px;
+	}
+
+	.header__burger.active:after {
+		transform: rotate(-45deg);
+		bottom: 9px;
+	}
+
+	.header__burger.active span {
+		transform: scale(0);
+	}
+	/* header burger animation end */
+
+
+
+}
