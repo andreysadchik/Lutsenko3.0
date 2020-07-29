@@ -1,6 +1,6 @@
 /* small laptop header start */
-@media (max-width: 1020px) {
-	.header__container {
+@media (max-width: 1110px) {
+	.header__wrapper {
 		max-width: 850px;
 		margin: 0 auto;
 		padding:0 15px;
@@ -9,23 +9,34 @@
 	.header__items {
 		width: 645px;
 	}
+
+	.wrapper {
+		max-width: 850px;
+		margin: 0 auto;
+		padding:0 15px;
+	}
 }
 
 /* small laptop header end */
 
-@media (max-width: 880px) {
+@media (max-width: 962px) {
 	
 	body.lock {
 		overflow: hidden;
 	}
 
-	.header__container {
+	.header__wrapper {
 		max-width: 700px;
 		margin: 0 auto;
 		padding:0 15px;
 		height: 55px;
 	}
 	
+	.wrapper {
+		max-width: 850px;
+		margin: 0 auto;
+	}
+
 	.header__logo {
 		z-index: 12;
 		flex: 0 0 95px; /* header logo resize*/
@@ -71,6 +82,7 @@
 	/*fixe border bottom line start*/
 
 	.header__items {
+		overflow: auto;
 		position: fixed;
 		top: -150%;
 		left: 0;
@@ -82,13 +94,12 @@
 		text-align: center;
 		padding: 100px 0 0 0;
 		transition: all 0.3s ease 0s;
-		overflow: auto;
 	}
 
 
 	.header__items.active {
 		top: 0;
-		overflow: scroll;
+		overflow: auto;
 	}
 
 	.header__nav {
@@ -130,7 +141,6 @@
 		width: 40px;
 		height: 40px;
 	}
-	
 
 	.header__insta a {
 		display: block;
@@ -154,6 +164,19 @@
 	}
 	/* header burger animation end */
 
+	.title__img {
+		display: none;
+	}
+	
+	.title__header {
+		max-width: 850px;
+	}
+	.title__sub {
+		max-width: 850px;
+	}
+	.title__container {
+		
+	}
 
 
 }
