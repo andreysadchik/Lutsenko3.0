@@ -91,7 +91,6 @@ body {
 /* header navigation end */
 
 .header__insta {
-	display: block;
 	flex: 0 0 24px; /* fixed instalogo size */
 }
 
@@ -108,5 +107,7 @@ body {
 	padding-top: 100px;
 	height: 2000px;
 	background-color: #F7F7F8;
+	color: black;
+	font-size: 50px;
 }
 /* header end */
