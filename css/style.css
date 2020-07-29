@@ -208,6 +208,58 @@ body {
 .information {
 	height: 2000px;
 	background-color: #F7F7F8;
+	padding: 50px 0 0 0;
+}
+
+.information__title {
+	max-width: 713px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 133.5%;
+	color: #252525;
+	margin: 0 0 22px 0;
+}
+
+.information__container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.information__text {
+	flex: 0 1 500px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 32px;
+	color: #252525;
+}
+
+.information__block-text {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 40px;
+	color: #FFFFFF;
+	margin: 0 0 41px 0;
+}
+
+.information__button {
+	display: inline-block;
+}
+
+.information__button a{
+	background: #FFFFFF;
+	color: #252525;
+}
+
+.information__block {
+	background: #5300EE;
+	box-shadow: 0px 8px 32px rgba(36, 36, 36, 0.12);
+	border-radius: 12px 0px 0px 12px;
+	padding: 62px 53px 48px 70px;
+	position: relative;
+	left: 99px;
 }
 
 /*information end */
