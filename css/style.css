@@ -112,7 +112,6 @@ body {
 /*title start */
 .title {
 	padding-top: 64px;
-	height: 2000px;
 }
 
 .title__container {
@@ -157,6 +156,7 @@ body {
 	display: flex;
 	justify-content: space-between;
 	max-width: 336px;
+	margin: 0 0 113px 0;
 }
 
 /*make button start */
@@ -181,6 +181,10 @@ body {
 	color: #FFFFFF;
 }
 
+.title__button:active {
+	background: #4200BD;
+}
+
 .title__img {
 	position: absolute;
 	top: 53px;
@@ -193,4 +197,17 @@ body {
 	max-height: 100%;
 }
 
+.title__arrow {
+	text-align: center;
+	margin: 0 0 37px 0;
+}
+
 /*title end */
+/*information start */
+
+.information {
+	height: 2000px;
+	background-color: #F7F7F8;
+}
+
+/*information end */
