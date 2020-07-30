@@ -206,9 +206,8 @@ body {
 /*information start */
 
 .information {
-	height: 2000px;
 	background-color: #F7F7F8;
-	padding: 50px 0 0 0;
+	padding: 50px 0 106px 0;
 }
 
 .information__title {
@@ -261,5 +260,12 @@ body {
 	position: relative;
 	left: 99px;
 }
+
+/* TEXT SIZES start */
+
+
+
+/* TEXT SIZES end */
+
 
 /*information end */
