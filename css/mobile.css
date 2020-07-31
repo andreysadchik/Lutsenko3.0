@@ -49,6 +49,41 @@
 		border-radius: 3.3649px;
 		position: static;
 	}
+
+	.haveto__item-left {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin: 0 0 35px 0;
+	}
+
+	.haveto__item-right {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin: 0 0 35px 0;
+	}
+
+	.haveto__item-text-left {
+		margin: 0 0 0 70px;
+		font-weight: 500;
+		font-size: 28px;
+		line-height: 130%;
+		color: #252525;
+		flex: 0 1 auto;
+		max-width: 300px;
+	}
+
+	.haveto__item-textr-right {
+		margin: 0 70px 0 0;
+		font-weight: 500;
+		font-size: 28px;
+		line-height: 130%;
+		color: #252525;
+		flex: 0 1 auto;
+		max-width: 300px;
+	}
+
 }
 
 /* small laptop header end */
@@ -337,7 +372,8 @@
 		padding: 10px 20px;
 		margin: 0 0 20px 45px;
 	} 
-
+/*why mobile end */
+/* fear mobile start */
 	.fear__desktop-dots {
 		width: 18px;
 	}
@@ -366,5 +402,43 @@
 	.fear__container {
 		margin: 0 0 55px 0;
 	}
-/*why mobile end */
+/* fear mobile start */
+/* haveto mobile start */
+
+
+	.haveto__item-left {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin: 0 0 28px 0;
+	}
+
+	.haveto__item-right {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin: 0 0 28px 0;
+	}
+
+	.haveto__item-text-left {
+		margin: 0 0 0 5px;
+		font-weight: 500;
+		font-size: 15px;
+		line-height: 80%;
+		color: #252525;
+		flex: 0 1 auto;
+		max-width: 150px;
+	}
+
+	.haveto__item-textr-right {
+		margin: 0 5px 0 0;
+		font-weight: 500;
+		font-size: 15px;
+		line-height: 80%;
+		color: #252525;
+		flex: 0 1 auto;
+		max-width: 150px;
+	}
+
+/* haveto mobile end */
 }

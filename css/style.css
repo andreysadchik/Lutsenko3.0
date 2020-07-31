@@ -486,6 +486,64 @@ body {
 	color: #6D6D6D;
 }
 /* fear end */
+/* haveto start */
 
+.haveto__header {
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 133.5%;
+	text-align: center;
+	color: #252525;
+	margin: 0 0 22px 0;
+}
+
+.haveto__text {
+	font-size: 24px;
+	line-height: 32px;
+	text-align: center;
+	color: #252525;
+	margin: 0 0 32px 0;
+}
+
+.haveto__item-left {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 0 40px 0;
+}
+
+.haveto__item-right {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 0 40px 0;
+}
+
+.haveto-img {
+	width: 100%;
+	height: auto;
+}
+
+.haveto__item-text-left {
+	margin: 0 0 0 100px;
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 133.5%;
+	color: #252525;
+	flex: 0 1 auto;
+	max-width: 500px;
+}
+
+.haveto__item-textr-right {
+	margin: 0 100px 0 0;
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 133.5%;
+	color: #252525;
+	flex: 0 1 auto;
+	max-width: 500px;
+}
+
+/* haveto end */
 
 /*information end */
