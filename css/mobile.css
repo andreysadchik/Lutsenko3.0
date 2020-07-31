@@ -37,22 +37,18 @@
 	.desktop__screen {
 		padding: 25px 90px 0 90px;
 	}
-/*
-	.desktop__screen-left {
-		padding: 15px 38px;
-		max-width: 405px;
-		font-size: 20px;
-		margin: 0 0 25px 0;
+
+	.fear__container {
+		flex-direction: column;
+		align-items: center;
 	}
 
-	.desktop__screen-rigt {
-		right: -120px;
-		padding: 15px 38px;
-		max-width: 405px;
-		font-size: 20px;
-		margin: 0 0 25px 0;
+	.fear__desktop {
+		border: 0.420613px solid #DEE1E6;
+		box-sizing: border-box;
+		border-radius: 3.3649px;
+		position: static;
 	}
-*/
 }
 
 /* small laptop header end */
@@ -305,11 +301,9 @@
 	}
 
 	..why__text {
-		font-weight: normal;
-		font-size: 10px;
-		line-height: 30px;
+		font-size: 15px;
+		line-height: 15px;
 		text-align: center;
-		color: #252525;
 		margin: 0 0 22px 0;
 	}
 
@@ -344,5 +338,33 @@
 		margin: 0 0 20px 45px;
 	} 
 
+	.fear__desktop-dots {
+		width: 18px;
+	}
+
+	.fear__bar {
+		padding: 2px 70px;
+		margin: 0 0 0 25px;
+	}
+	
+	.fear__screen {
+		padding: 29px 15px;
+		height: 220px;
+	}
+
+	.fear__header {
+		padding-top: 25px;
+		font-size: 35px;
+		line-height: 120%;
+	}
+
+	.fear__text {
+		font-size: 20px;
+		line-height: 30px;
+	}
+	
+	.fear__container {
+		margin: 0 0 55px 0;
+	}
 /*why mobile end */
 }

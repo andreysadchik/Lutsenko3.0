@@ -353,57 +353,14 @@ body {
 	justify-content: center;
 }
 
-               /*desktop end*/
-
-/* .desktop__screen {
-	max-width: 1000px;
-	text-align: center;
-	height: 499px;
-	overflow-x: scroll;
-	padding: 50px 140px 0 140px;
-	background: #FFFFFF;
-	background: linear-gradient(180deg, rgba(255, 255, 255, 0) 35.82%, rgba(255, 255, 255, 0.08) 66.24%, rgba(255, 255, 255, 0.64) 100%);
-}
-
-.desktop__screen-left {
-	width: 505px;
-	background: #5300EE;
-	box-shadow: 0px 4px 18px rgba(83, 0, 238, 0.29);
-	border-radius: 30px 30px 30px 0px;
-	padding: 20px 40px;
-	width: 505px;
-	font-weight: normal;
-	font-size: 24px;
-	line-height: 32px;
-	color: #FFFFFF;
-	margin: 0 0 30px 0;
-}
-
-.desktop__screen-rigt {
-	position: relative;
-	top: 0;
-	right: -125px;
-	padding: 20px 40px;
-	color: #fff;
-	width: 505px;
-	background: #524377;
-	box-shadow: 0px 4px 18px rgba(82, 67, 119, 0.29);
-	border-radius: 30px 30px 0px 30px;
-	font-weight: normal;
-	font-size: 24px;
-	line-height: 32px;
-	color: #FFFFFF;
-	margin: 0 0 30px 0;
-} */ 
-
-
-
 .desktop__screen {
 	display: flex;
 	flex-direction: column;
 	height: 499px;
 	overflow-x: auto;
 	padding: 50px 124px 0 124px;
+	background: rgba(255, 255, 255, 0.001);
+	box-shadow: 0px 0px 32.3031px rgba(0, 0, 0, 0.16);
 }
 
 .desktop__screen-left {
@@ -431,7 +388,104 @@ body {
 	padding: 20px 40px;
 	margin: 0 0 30px 45px;
 }
+			/*desktop end*/
 /* why end */
+/* fear start */
+.fear__container {
+	display: flex;
+	margin: 0 0 98px 0;
+}
+
+.fear__info {
+	max-width: 500px;
+}
+
+.fear__header {
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 133.5%;
+	color: #252525;
+	margin: 0 0 22px 0;
+}
+
+.fear__text {
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 32px;
+	color: #252525;
+	margin: 0 0 22px 0;
+}
+
+.fear__desktop {
+	border: 0.420613px solid #DEE1E6;
+	box-sizing: border-box;
+	border-radius: 3.3649px;
+	position: relative;
+	top: 0;
+	left: 90px;
+}
+
+.fear__desktop-address {
+	height: 16px;
+	display: flex;
+	align-items: center;
+	background: #E1E1E2;
+	padding: 0 10px;
+}
+
+.fear__desktop-dots {
+	width: 22px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.fear__dots {
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+}
+
+.fear__bar {
+	font-size: 6.46062px;
+	line-height: 8px;
+	text-align: center;
+	color: #000000;
+	padding: 2px 150px;
+	background: #F1F3F4;
+	border-radius: 3.76869px;
+	margin: 0 0 0 72px;
+}
+
+.fear__screen {
+	background: #FFFFFF;
+	box-shadow: 0px 0px 32.3031px rgba(0, 0, 0, 0.16);
+	padding: 29px 68px;
+	border-radius: 0px 0px 3.3649px 3.3649px;
+	height: 270px;
+}
+
+.fear__screen-header {
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 15px;
+	color: #252525;
+}
+
+.fear__screen-img {
+	width: 100%;
+	height: auto;
+	position: relative;
+	left: -30px
+}
+
+.fear__screen-text {
+	font-weight: normal;
+	font-size: 11px;
+	line-height: 13px;
+	color: #6D6D6D;
+}
+/* fear end */
 
 
 /*information end */
