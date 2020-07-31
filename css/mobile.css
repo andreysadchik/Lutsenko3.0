@@ -35,9 +35,9 @@
 	}
 
 	.desktop__screen {
-		padding: 25px 90px 0 120px;
+		padding: 25px 90px 0 90px;
 	}
-
+/*
 	.desktop__screen-left {
 		padding: 15px 38px;
 		max-width: 405px;
@@ -52,6 +52,7 @@
 		font-size: 20px;
 		margin: 0 0 25px 0;
 	}
+*/
 }
 
 /* small laptop header end */
@@ -285,7 +286,7 @@
 		font-size: 20px;
 	}
 
-	.nformation__title {
+	.information__title {
 		text-align: center;
 		font-size: 35px;
 	}
@@ -293,6 +294,7 @@
 	.information__title {
 		max-width: auto;
 	}
+
 /*information mobile end */
 /*why mobile start */
 
@@ -303,26 +305,29 @@
 	.why__bar {
 		margin: 0 0 0 25px;
 	}
-
+	
 	.desktop__screen {
-		padding: 15px 5px 0px 5px;
+		padding: 15px 10px 0 10px;
+		height: 410px;
 	}
 
 	.desktop__screen-left {
-		max-width: 205px;
-		font-size: 18px;
-		margin: 0 0 18px 0;
+		font-weight: normal;
+		font-size: 15px;
+		line-height: 32px;
+		color: #FFFFFF;
+		padding: 10px 20px;
+		margin: 0 45px 20px 0;
 	}
 
 	.desktop__screen-rigt {
-		position: relative;
-		right: -9px;
-		padding: 10px 28px;
-		max-width: 205px;
-		font-size: 18px;
-		margin: 0 0 18px 0;
-	}
-
+		font-weight: normal;
+		font-size: 15px;
+		line-height: 32px;
+		color: #FFFFFF;
+		padding: 10px 20px;
+		margin: 0 0 20px 45px;
+	} 
 
 /*why mobile end */
 }
