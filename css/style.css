@@ -545,5 +545,18 @@ body {
 }
 
 /* haveto end */
+/* quote start */
+.qoute {
+	background: #5300EE;
+	padding: 80px 0;
+}
 
+.quote__text {
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 150%;
+	text-align: center;
+	color: #F7F7F8;
+}
+/* quote end */
 /*information end */

@@ -335,9 +335,9 @@
 		color: #252525;
 	}
 
-	..why__text {
-		font-size: 15px;
-		line-height: 15px;
+	.why__text {
+		font-size: 12px;
+		line-height: 25px;
 		text-align: center;
 		margin: 0 0 22px 0;
 	}
@@ -424,7 +424,7 @@
 		line-height: 25px;
 		text-align: center;
 		color: #252525;
-		margin: 0 0 25px 0;
+		margin: 0 0 22px 0;
 	}
 
 	.haveto__item-left {
@@ -443,7 +443,7 @@
 
 	.haveto__item-text-left {
 		margin: 0 0 0 5px;
-		font-weight: 500;
+		font-weight: normal;
 		font-size: 15px;
 		line-height: 80%;
 		color: #252525;
@@ -453,7 +453,7 @@
 
 	.haveto__item-textr-right {
 		margin: 0 5px 0 0;
-		font-weight: 500;
+		font-weight: normal;
 		font-size: 15px;
 		line-height: 80%;
 		color: #252525;
@@ -461,4 +461,20 @@
 		max-width: 150px;
 	}
 /* haveto mobile end */
+/* quote mobile start */
+
+	.qoute {
+		background: #5300EE;
+		padding: 40px 0;
+	}
+
+	.quote__text {
+		font-weight: bold;
+		font-size: 28px;
+		line-height: 120%;
+		text-align: center;
+		color: #F7F7F8;
+	}
+
+/* quote mobile end */
 }
