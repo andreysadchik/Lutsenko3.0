@@ -8,5 +8,7 @@ $(document).ready(function() {
 $(document).ready(function() {
 	$('.slidermain__container').slick({
 		arrows: false,
+		dots: false,
+		touchTreshold: 10,
 	});
 });

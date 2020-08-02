@@ -549,7 +549,6 @@ body {
 .qoute {
 	background: #5300EE;
 	padding: 80px 0;
-	margin: 0 0 50px 0;
 }
 
 .quote__text {
@@ -571,7 +570,7 @@ body {
 	font-size: 36px;
 	line-height: 133.5%;
 	color: #252525;
-	margin: 0 0 30px 0;
+	padding: 50px 0 30px 0;
 }
 
 .slider__blocks {
@@ -608,6 +607,10 @@ body {
 .slider__text {
 	text-align: center;
 	padding: 16px 0 26px 0;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 150%;
+	color: #000000;
 }
 
 		/* slider background color start */
@@ -636,11 +639,28 @@ body {
 
 .slick-track {
 	display: flex;
-	overflow: hidden;
+	align-items: flex-start;
 }
 
 .slidermain__container {
 	overflow: hidden;
+}
+
+.slick-dots li {
+	list-style: none;
+}
+
+.slick-dots button {
+	font-size: 0;
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	background-color: white;
+	border: 1px solid black;
+}
+
+.slick-dots li.slick-active button {
+	background-color: #5300EE;
 }
 
 /*----------------slider slick --------------------------*/
