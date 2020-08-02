@@ -566,5 +566,40 @@
 		background: #5300EE;
 		padding-top: 102px;
 	}
+
 /* slider mobile end */
+/* who mobile start */
+	.who__container {
+		display: block;
+		text-align: center;
+		padding: 0 0 30px 0;
+	}
+
+	.who__header {
+		font-size: 30px;
+		line-height: 130%;
+		margin: 25px 0 20px 0;
+		text-align: center;
+	}
+
+	.why__text-header {
+		font-size: 24px;
+		line-height: 33px;
+		text-align: center;
+		margin: 0 0 12px 0;
+	}
+
+	.why__text-text {
+		font-size: 18px;
+		line-height: 28px;
+		text-align: center;
+		margin: 0 0 18px 0;
+	}
+
+	.why__block {
+		display: inline-block;
+		position: static;
+		padding: 30px 15px;
+	}
+/* who mobile end */
 }
