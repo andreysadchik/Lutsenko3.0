@@ -602,4 +602,59 @@
 		padding: 30px 15px;
 	}
 /* who mobile end */
+/* how mobile start */
+
+	.how__header {
+		font-style: normal;
+		font-weight: 500;
+		font-size: 33px;
+		line-height: 130%;
+		color: #252525;
+		margin: 0 0 18px 0;
+		text-align: center;
+	}
+
+	.how__text {
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 28px;
+		color: #252525;
+		max-width: none;
+		text-align: center;
+		margin: 0 0 15px 0;
+	}
+
+	.how__container {
+		display: block;
+		text-align: center;
+	}
+
+	.how__block {
+		padding: 25px 22px;
+		background: #5300EE;
+		box-shadow: 0px 8px 32px rgba(36, 36, 36, 0.12);
+		border-radius: 12px;
+		position: static;
+	}
+
+	.how__block p{
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 28px;
+		color: #FFFFFF;
+	}
+
+/* how mobile end */
+/* ps mobile start */
+
+	.ps__container {
+		padding: 45px 0 45px 0;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 23px;
+		line-height: 130%;
+		color: #252525;
+	}
+
+/* ps mobile end */
 }

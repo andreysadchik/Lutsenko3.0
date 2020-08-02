@@ -727,7 +727,62 @@ body {
 	left: 99px;
 	align-self: flex-start;
 }
-
-/**/
 /* who styles end */
+/* how styles start */
+
+.how__header {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 133.5%;
+	color: #252525;
+	margin: 0 0 22px 0;
+}
+
+.how__text {
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 32px;
+	color: #252525;
+	max-width: 500px;
+}
+
+.how__container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.how__block {
+	padding: 40px 38px;
+	background: #5300EE;
+	box-shadow: 0px 8px 32px rgba(36, 36, 36, 0.12);
+	border-radius: 12px;
+	position: relative;
+	top: 136px;
+	left: 0;
+}
+
+.how__block p{
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 32px;
+	color: #FFFFFF;
+}
+
+/* how styles end */
+/* ps styles start */
+.ps {
+	background: #ffff;
+}
+
+.ps__container {
+	padding: 145px 0 100px 0;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 150%;
+	color: #252525;
+}
+/* ps styles end */
+
 /*information end */
