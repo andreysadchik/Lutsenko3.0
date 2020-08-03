@@ -879,4 +879,61 @@
 		margin: 0 0 15px 0;
 	}
 /* questions mobile end */
+/* author mobile start */
+
+	.author {
+		padding: 40px 0;
+	}
+
+	.author__container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	.author__items {
+		text-align: center;
+	}
+
+	.author__img {
+		max-width: 100%;
+		height: auto;
+		margin: 0 0 0 0;
+	}
+
+	.author__items-title {
+		font-size: 33px;
+		line-height: 130%;
+		margin: 0 0 18px 0;
+	}
+
+	.author__items-text {
+		font-size: 20px;
+		line-height: 130%;
+	}
+/* author mobile end */
+/* change mobile start */
+
+	.change {
+		padding: 55px 0;
+	}
+
+	.change__title {
+		font-size: 33px;
+		line-height: 130%;
+		text-align: center;
+		color: #FFFFFF;
+		margin: 0 0 20px 0;
+	}
+
+	.change__text {
+		font-weight: normal;
+		font-size: 20px;
+		line-height: 30px;
+		text-align: center;
+		color: #FFFFFF;
+		margin: 0 0 35px 0;
+	}
+/* change mobile end */
 }

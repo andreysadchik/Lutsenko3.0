@@ -1027,5 +1027,85 @@ body {
 }
 
 /* questions end */
+/* author start */
 
-/*information end */
+.author {
+	padding: 70px 0;
+}
+
+.author__container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.author__img {
+	max-width: 436px;
+	height: auto;
+	margin: 0 104px 0 0;
+}
+
+.author__items-title {
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 133.5%;
+	color: #252525;
+	margin: 0 0 20px 0;
+}
+
+.author__items-text {
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 133.5%;
+	color: #252525;
+}
+
+/* author end */
+/* change start */
+
+.change {
+	background: #56477A;
+	padding: 70px 0;
+}
+
+.change__container {
+	text-align: center;
+}
+
+.change__title {
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 133.5%;
+	text-align: center;
+	color: #FFFFFF;
+	margin: 0 0 22px 0;
+}
+
+.change__text {
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 32px;
+	text-align: center;
+	color: #FFFFFF;
+	margin: 0 0 45px 0;
+}
+
+.change__button a {
+	padding: 15px 30px;
+	display: inline-block;
+	background: #FFFFFF;
+	box-shadow: 0px 2px 4px rgba(83, 0, 238, 0.27);
+	border-radius: 68px;
+	color: #252552;
+	text-decoration: none;
+}
+/* change end */
+/* footer start */
+
+
+
+/* footer end */
+
+
+
+
