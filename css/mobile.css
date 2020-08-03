@@ -110,6 +110,34 @@
 		align-items: center;
 	}
 
+	.reviews {
+		padding: 80px 0;
+	}
+
+	.reviews__header {
+		font-weight: 500;
+		font-size: 34px;
+		line-height: 133%;
+		color: #252525;
+		margin: 0 0 40px 0;
+	}
+
+	.reviews__item {
+		padding: 20px 20px;
+		max-width: 43%;
+		height: 430px;
+		background: #FFFFFF;
+		box-shadow: 0px 8px 32px rgba(36, 36, 36, 0.12);
+		border-radius: 12px;
+		margin: 0 0 20px 0;
+		overflow: auto;
+	}
+
+	.reviews__img {
+		margin: 0 24px 0 0;
+		max-width: 75px;
+		height: auto;
+	}
 }
 
 /* small laptop header end */
@@ -702,4 +730,53 @@
 	}
 
 /* programm mobile end */
+/* reviews mobile start */
+	
+	.reviews {
+		padding: 40px 0;
+	}
+
+	.reviews__header {
+		font-weight: 500;
+		font-size: 28px;
+		line-height: 130%;
+		color: #252525;
+		margin: 0 0 25px 0;
+		text-align: center;
+	}
+
+	.reviews__item {
+		padding: 15px 15px;
+		max-width: 100%;
+		height: 100%;
+		background: #FFFFFF;
+		box-shadow: 0px 8px 32px rgba(36, 36, 36, 0.12);
+		border-radius: 12px;
+		margin: 0 0 15px 0;
+		overflow: auto;
+	}
+
+	.reviews__item-main {
+		margin: 0 0 18px 0;
+	}
+
+	.reviews__img {
+		margin: 0 20px 0 0;
+		max-width: 60px;
+		height: auto;
+	}
+
+	.reviews__name {
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 22px;
+		color: #252525;
+	}
+
+	.reviews__rev {
+		font-size: 14px;
+		line-height: 18px;
+	}
+
+/* reviews mobile end */
 }
