@@ -784,5 +784,71 @@ body {
 	color: #252525;
 }
 /* ps styles end */
+/* programm styles start */
+
+.programm {
+	padding: 100px 0;
+	background: #252525;
+}
+
+.programm__header {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 133.5%;
+	color: #FFFFFF;
+	margin: 0 0 50px 0;
+}
+
+.programm__item {
+	margin: 0 0 60px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.programm__number {
+	align-items: flex-start;
+	box-sizing: border-box;
+	height: 60px;
+	border: 1px solid #FFFFFF;
+	border-radius: 50%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 37px;
+	color: #ffff;
+	margin: 0 20px 0 0;
+	flex: 0 0 60px;
+}
+
+.programm__item-header {
+	align-self: flex-start;
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 37px;
+	color: #FFFFFF;
+	text-align: left;
+	margin: 0 77px 0 0;
+	flex: 0 0 264px;
+}
+
+.programm__text {
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 150%;
+	color: #FFFFFF;
+	align-self: flex-start;
+	flex: 0 1 575px;
+}
+
+.programm__number-circle {
+	width: 49px;
+	height: 49px;
+	background: #5300EE;
+	border-radius: 50%;
+}
+/* programm styles end */
 
 /*information end */

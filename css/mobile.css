@@ -657,4 +657,49 @@
 	}
 
 /* ps mobile end */
+/* programm mobile start */
+
+	.programm {
+		padding: 35px 0;
+		background: #252525;
+	}
+
+	.programm__header {
+		font-size: 30px;
+		line-height: 130%;
+		margin: 0 0 25px 0;
+	}
+
+	.programm__item {
+		margin: 0 0 35px 0;
+		display: block;
+	}
+
+	.programm__number {
+		height: 40px;
+		width: 40px;
+		font-size: 12px;
+		line-height: 25px;
+		margin: 0 5px 0 0;
+	}
+
+	.programm__item-header {
+		font-size: 20px;
+		line-height: 30px;
+		margin: 0 10px 10px 50px;
+		position: relative;
+		bottom: 35px;
+	}
+
+	.programm__text {
+		font-size: 15px;
+		line-height: 110%;
+	}
+
+	.programm__number-circle {
+		width: 30px;
+		height: 30px;
+	}
+
+/* programm mobile end */
 }
