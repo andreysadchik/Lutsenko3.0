@@ -236,6 +236,10 @@ body {
 	color: #252525;
 }
 
+.information__text p{
+	margin: 0 0 15px 0;
+}
+
 .information__block-text {
 	font-style: normal;
 	font-weight: 500;
@@ -505,6 +509,15 @@ body {
 	margin: 0 0 32px 0;
 }
 
+.have__item-header {
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 133.5%;
+	text-align: center;
+	color: #252525;
+	margin: 0 0 22px 0;
+}
+
 .haveto__item-left {
 	display: flex;
 	justify-content: space-between;
@@ -716,10 +729,14 @@ body {
 .why__button a{
 	background: #FFFFFF;
 	color: #252525;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+	color: #252525;
 }
 
 .why__block {
-	background: #5300EE;
+	background: #56477A;;
 	box-shadow: 0px 8px 32px rgba(36, 36, 36, 0.12);
 	border-radius: 12px 0px 0px 12px;
 	padding: 62px 53px 48px 70px;
@@ -848,6 +865,23 @@ body {
 	height: 49px;
 	background: #5300EE;
 	border-radius: 50%;
+}
+
+.programm__button {
+	padding: 11px 34px;
+	background: #ffff;
+	text-align: center;
+	border-radius: 45px;
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 30px;
+}
+
+
+.programm__button a {
+	display: inline-block;
+	text-decoration: none;
+	color: black;
 }
 /* programm styles end */
 /* reviews styles start */
@@ -1166,7 +1200,3 @@ body {
 	line-height: 14px;
 }
 /* footer end */
-
-
-
-

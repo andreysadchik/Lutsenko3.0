@@ -387,7 +387,7 @@
 
 	.information__title {
 		text-align: center;
-		font-size: 35px;
+		font-size: 28px;
 		line-height: 110%;
 	}
 
@@ -399,7 +399,7 @@
 /*why mobile start */
 	
 	.why__header {
-		font-size: 35px;
+		font-size: 28px;
 		line-height: 110%;
 		text-align: center;
 		color: #252525;
@@ -482,12 +482,23 @@
 /* haveto mobile start */
 	.haveto__header {
 		font-weight: 500;
-		font-size: 33px;
+		font-size: 30px;
 		line-height: 130%;
 		text-align: center;
 		color: #252525;
 		margin: 0 0 18px 0;
 	}
+
+
+	.have__item-header {
+		font-weight: 500;
+		font-size: 30px;
+		line-height: 130%;
+		text-align: center;
+		color: #252525;
+		margin: 0 0 18px 0;
+	}
+
 
 	.haveto__text {
 		font-size: 12px;
@@ -640,10 +651,37 @@
 		margin: 0 0 18px 0;
 	}
 
-	.why__block {
+
+	.why__block-text {
+		font-style: normal;
+		font-weight: 500;
+		font-size: 25px;
+		line-height: 30px;
+		color: #FFFFFF;
+		margin: 0 0 25px 0;
+	}
+
+	.why__button {
 		display: inline-block;
+	}
+
+	.why__button a{
+		background: #FFFFFF;
+		color: #252525;
+		font-weight: 500;
+		font-size: 15px;
+		line-height: 21px;
+		color: #252525;
+	}
+
+	.why__block {
+		background: #56477A;;
+		box-shadow: 0px 8px 32px rgba(36, 36, 36, 0.12);
+		border-radius: 12px 0px 0px 12px;
+		padding: 15px 10px;
 		position: static;
-		padding: 30px 15px;
+		display: inline-block;
+		align-self: flex-start;
 	}
 /* who mobile end */
 /* how mobile start */
