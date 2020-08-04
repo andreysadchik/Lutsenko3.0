@@ -906,6 +906,7 @@ body {
 
 iframe {
 	margin: 0 0 30px 0;
+	height: 415px;
 }
 
 .reviews__item {
