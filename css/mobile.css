@@ -403,10 +403,11 @@
 		line-height: 110%;
 		text-align: center;
 		color: #252525;
+		margin: 0 0 20px 0;
 	}
 
 	.why__text {
-		font-size: 12px;
+		font-size: 18px;
 		line-height: 25px;
 		text-align: center;
 		margin: 0 0 22px 0;
@@ -797,6 +798,11 @@
 		color: #252525;
 		margin: 0 0 25px 0;
 		text-align: center;
+	}
+
+	iframe {
+		margin: 0 0 20px 0;
+		height: 415px;
 	}
 
 	.reviews__item {
