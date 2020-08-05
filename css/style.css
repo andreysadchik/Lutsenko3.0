@@ -851,6 +851,10 @@ body {
 	flex: 0 0 264px;
 }
 
+.last__header {
+	flex: 1 0 auto;
+}
+
 .programm__text {
 	font-weight: normal;
 	font-size: 20px;
