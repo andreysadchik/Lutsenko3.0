@@ -512,6 +512,7 @@
 	.haveto__item-left {
 		display: flex;
 		justify-content: space-between;
+		flex-direction: column;
 		align-items: center;
 		margin: 0 0 28px 0;
 	}
@@ -520,27 +521,39 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+		flex-direction: column;
 		margin: 0 0 28px 0;
+	}
+
+	.haveto__item-img {
+		text-align: center;
+	}
+
+	.haveto-img {
+		margin: 0 0 15px 0;
+		max-width: 90%;
+		height: auto;
 	}
 
 	.haveto__item-text-left {
 		margin: 0 0 0 5px;
 		font-weight: normal;
-		font-size: 15px;
-		line-height: 80%;
+		font-size: 20px;
+		line-height: 110%;
 		color: #252525;
 		flex: 0 1 auto;
-		max-width: 150px;
+		max-width: 100%;
 	}
 
 	.haveto__item-textr-right {
 		margin: 0 5px 0 0;
 		font-weight: normal;
-		font-size: 15px;
-		line-height: 80%;
+		font-size: 20px;
+		line-height: 110%;
 		color: #252525;
 		flex: 0 1 auto;
-		max-width: 150px;
+		max-width: 100%;
+		order: 1;
 	}
 /* haveto mobile end */
 /* quote mobile start */
